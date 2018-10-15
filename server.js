@@ -33,9 +33,9 @@ app.get('/ms/user/map', (req, res) => {
       const { lat, lng } = data.data.results[0].geometry.location;
       console.log(lat, lng, chef);
       db.MapChef.findOrCreate({
-        where: { chefId: chef.id },
+        where: { chefId: chef.chefId },
         defaults: {
-          chefId: chef.id,
+          chefId: chef.ChefId,
           streetAddress: chef.streetAddress,
           city: chef.city,
           stateName: chef.stateName,
