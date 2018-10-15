@@ -46,7 +46,13 @@ app.get('/ms/user/map', (req, res) => {
           username: chef.username,
           description: chef.description
         }
-      });
+      })
+        .then(data => {
+          console.log('THIS IS THE DATA FROM MAPSERVER LN51', data);
+          res.send(data);
+        })
+        .catch(err => console.log(err));
+
       // .success(function(user, created) {
       //   console.log(user.values);
       //   res.send(200);
