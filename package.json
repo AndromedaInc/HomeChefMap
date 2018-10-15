@@ -1,0 +1,30 @@
+{
+  "name": "HomeChefMap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndromedaInc/HomeChefMap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndromedaInc/HomeChefMap/issues"
+  },
+  "homepage": "https://github.com/AndromedaInc/HomeChefMap#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "mysql2": "^1.6.1",
+    "nodemon": "^1.18.4",
+    "sequelize": "^4.39.0"
+  }
+}
