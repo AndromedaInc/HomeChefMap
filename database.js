@@ -36,10 +36,10 @@ orm
 /* MODELS (alphabetized) */
 /* ///////////////////// */
 
-const MapChef = orm.define('mapChef', {
+const MapChef = orm.define('MapChef', {
   chefId: Sequelize.INTEGER,
   description: Sequelize.TEXT,
-  imageUrl: Sequelize.STRING,
+  // imageUrl: Sequelize.STRING,
   name: Sequelize.STRING,
   username: Sequelize.STRING,
   streetAddress: Sequelize.TEXT,
